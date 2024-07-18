@@ -1,3 +1,7 @@
 from art import tprint
-tprint("PYTHON")
+from class1 import Hi
+tprint('PYTHON')
+hello = Hi('hello')
+
+tprint(hello.name)
 
